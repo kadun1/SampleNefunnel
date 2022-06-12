@@ -8,31 +8,29 @@
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginRight="8dp"/>
+        android:layout_marginRight="8dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginLeft="85dp">
+        android:layout_toRightOf="@+id/image"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/image"
             android:layout_toRightOf="@+id/image"
             android:textSize="20dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/createDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignTop="@+id/title"
-            android:layout_toRightOf="@+id/image"
-            android:textSize="17dp"
             android:layout_gravity="end"
-            android:textStyle="italic"/>
+            android:textSize="17dp"
+            android:textStyle="italic" />
     </LinearLayout>
 </RelativeLayout>

@@ -5,9 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="@color/beige"
+    android:background="@color/textBlue"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/mainLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello!!"
+        android:textSize="40sp"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/beige"
+        android:textStyle="bold"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -15,32 +25,7 @@
         android:text="Sample For NetFUNNEL"
         android:textSize="20sp"
         android:layout_marginBottom="25dp"
-        android:textColor="@color/textBlue"
+        android:textColor="@color/beige"
         android:textStyle="bold"/>
-
-    <EditText
-        android:id="@+id/inputID"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="ID" />
-
-    <EditText
-        android:id="@+id/inputPW"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:hint="PW"/>
-
-    <Button
-        android:id="@+id/btnLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="LOGIN"
-        android:backgroundTint="@color/textBlue"
-        />
-
 
 </LinearLayout>

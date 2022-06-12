@@ -37,6 +37,11 @@ public class ListActivity extends AppCompatActivity {
 //        String pw = intent.getExtras().getString("pw");
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
+
     class ListAdapter extends BaseAdapter {
 
         ArrayList<SampleItem> items = new ArrayList<SampleItem>();

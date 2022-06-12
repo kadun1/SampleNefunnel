@@ -44,7 +44,7 @@ public class SampleItemView extends LinearLayout {
     }
 
     public void setDate(Date date){
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy년 MM월 dd일");
+        SimpleDateFormat sdf = new SimpleDateFormat("M월 dd일");
         String sdfStr = sdf.format(date);
         tvDate.setText(sdfStr);
     }

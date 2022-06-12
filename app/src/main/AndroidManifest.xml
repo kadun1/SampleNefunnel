@@ -14,7 +14,10 @@
         android:theme="@style/Theme.SampleNefunnel"
         tools:targetApi="31">
         <activity
-            android:name="com.tutorials.samplenefunnel.ListActivity"
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
